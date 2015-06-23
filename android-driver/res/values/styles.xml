@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ChangeLog:
+    Remove title bar from android driver app to display web pages in fullscreen.
+-->
 <resources>
 
+    <style name="FullscreenTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+    </style>
 
 </resources>
